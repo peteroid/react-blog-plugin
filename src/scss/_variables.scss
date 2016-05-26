@@ -1,0 +1,39 @@
+// general
+$root-folder-path: "../";
+$image-path: $root-folder-path + "img/";
+
+// paddings and margins
+$inline-top-bottom-padding: 10px;
+$inline-left-right-padding: 8px;
+$section-top-bottom-padding: $inline-top-bottom-padding * 2;
+$section-left-right-padding: $inline-left-right-padding * 2;
+
+// color
+$color-scheme-orange: #E8D0A9;
+$color-scheme-dark-orange: #B7AFA3;
+$color-scheme-blue-green: #C1DAD6;
+$color-scheme-light-blue: #F5FAFA;
+$color-scheme-blue: #ACD1E9;
+$color-scheme-dark-blue: #6D929B;
+$grey: #5E5E5E;
+$grey-subtle: rgba(94, 94, 94, 0.5);
+$grey-more-subtle: rgba(94, 94, 94, 0.25);
+$blue-subtle: rgba(84, 92, 109, 0.5);
+$white: #FEFEFE;
+$white-ish: #F9F9F9;
+
+// font
+$font-default: 'Play', sans-serif;
+$font-sub: 'Droid Serif', serif;
+
+// banner
+$banner-height: 600px;
+$banner-heading-size: 27px;
+$banner-sub-heading-size: 18px;
+
+// intro
+$intro-img-max-width: 250px;
+
+// work
+$work-item-width: 20%;
+$work-item-height: 200px;

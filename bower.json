@@ -1,0 +1,10 @@
+{
+  "name": "foundation-libsass-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "unslider": "~1.0.0",
+    "masonry": "~3.3.2",
+    "bourbon": "~4.2.6",
+    "foundation-icon-fonts": "*"
+  }
+}

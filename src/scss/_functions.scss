@@ -1,0 +1,15 @@
+@mixin add-animation($property, $duration: 1s, $timing: ease-out, $properties: ""){
+  @if $property == "" {
+    transition: $duration $timing;
+    -moz-transition: $duration $timing;
+    -ms-transition: $duration $timing;
+    -o-transition: $duration $timing;
+    -webkit-transition: $duration $timing;
+  } @else {
+    transition: #{$property} $duration #{"," + $properties} $timing;
+    -moz-transition: #{$property} $duration #{"," + $properties} $timing;
+    -ms-transition: #{$property} $duration #{"," + $properties} $timing;
+    -o-transition: #{$property} $duration #{"," + $properties} $timing;
+    -webkit-transition: #{$property} $duration #{"," + $properties} $timing;
+  }
+}

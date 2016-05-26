@@ -1,0 +1,29 @@
+body {
+  font-family: $font-default;
+
+  & > section {
+    padding: $section-top-bottom-padding $section-left-right-padding;
+
+    &:nth-child(even) {
+      background-color: $white-ish;
+    }
+
+    &:nth-child(odd) {
+      background-color: $white;
+    }
+  }
+
+  @mixin clear-header {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  h1 {
+    @include clear-header;
+    padding: $inline-top-bottom-padding $inline-left-right-padding;
+  }
+
+  h2 {
+    @include clear-header;
+  }
+}
